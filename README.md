@@ -4,7 +4,7 @@ Vamos a realizar dos ejercicios con un enfoque de testing manual.
 
 ## Ejecicio 1A: Descuento en tienda
 
-Zara Online ha implementado una nueva política por lo que si gastas *1000€ o más* en una compra te calcula un 10% sobre el valor tota. Implementa la función _calculateDiscount_
+Zara Online ha implementado una nueva política por lo que si gastas *1000€ o más* en una compra te calcula un 10% sobre el valor total. Implementa la función _calculateDiscount_
 
 ## Ejercicio 1B: Un descuento menor
 
