@@ -1,14 +1,14 @@
 
-function calculateDiscount(totalPrice) {
+function calculateDiscount(price) {
 
     let discount = 0;
 
-    if (totalPrice >= 500 && totalPrice < 1000) {
-        discount = totalPrice * .05;
+    if (price >= 500 && price < 1000) {
+        discount = price * .05;
     }
 
-    else if (totalPrice >= 1000) {
-        discount = totalPrice * 0.1;
+    else if (price >= 1000) {
+        discount = price * 0.1;
     }
 
     return discount;
