@@ -8,7 +8,13 @@ Zara Online ha implementado una nueva política por lo que si gastas *1000€ o 
 
 ## Ejercicio 1B: Un descuento menor
 
-Amancio Ortega va que la cosa funciona: un descuento hace a la gente gastar mucho más de lo que se pensaba. Quieren añadir una nueva funcionalidad. Si el valor de compra es de 500 a 999 (ambos incluidos), entonces le aplicaremos un 5% de descuento
+Amancio Ortega va que la cosa funciona: un descuento hace a la gente gastar mucho más de lo que se pensaba. Quieren **añadir** una nueva funcionalidad. Si el valor de compra es de 500 a 999 (ambos incluidos), entonces le aplicaremos un 5% de descuento
+
+Para probarlo substituye los console.log por:
+
+```
+console.log(calculateDiscount(750)); // 37.95
+```
 
 ## Ejercicio 1C: Los cupones de descuento
 
