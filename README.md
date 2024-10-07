@@ -50,6 +50,13 @@ function calculateTotal(totalPrice, voucher) {
 
 2. Una chica que hace una compra de 1500€ y tiene un cheque de descuento de 10€. Debería pagar al final 1341 €  5€ de gastos de envío = 1346
 
+```
+
+console.log("Compra de 750€ sin cheque descuento se le debería aplicar un 5% de descuento", calculateTotal(750)) // 717.5
+
+console.log("Compra de 1500 con un cheque descuento de 10€. Se le debería aplicar un 10% de descuento", calculateTotal(1500)) // 1346
+```
+
 ## Ejercicio 2A: Escribir las pruebas primero
 
 Mystery Box sigue implementando su software para canjear sus cupones de premio. Lee la docmentación sobre la función del _exercise-2-coupons.js_
