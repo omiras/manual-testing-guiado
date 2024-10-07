@@ -11,7 +11,7 @@ Zara Online ha implementado una nueva política por lo que si gastas *1000€ o 
 Cuando te funcione respondete a las siguientes preguntas:
 
 - ¿Te resulta esclarecedor lo que ves por pantalla?
-- ¿Crees que habría alguna otra pruena interesante a realizar para verificar si nuestra función hace lo que se espera?
+- ¿Crees que habría alguna otra prueba interesante a realizar para verificar si nuestra función hace lo que se espera?
 
 ## Ejercicio 1B: Un descuento menor
 
