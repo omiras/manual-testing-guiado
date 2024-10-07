@@ -36,10 +36,10 @@ En la útlima camapaña de verano, Zara Online estuvo distribuyendo cheques con 
 **Crea** en el fichero  _exercise-1-discount.js_ una función con las siguientes con las siguientes características:
 
 ```
-- totalPrice: Siempre va a ser un number positivo
-- voucher: Puede ser 0, 10 o 20. (es el cheque descuento)
+- basePrice: Siempre va a ser un number positivo
+- voucher: Puede ser 0, 10 o 20. (es el cheque descuento). SIEMPRE va a ser alguno de estos 3 valores.
 
-function calculateTotal(totalPrice, voucher) {
+function calculateTotal(basePrice, voucher) {
 
 }
 ```

@@ -4,7 +4,7 @@
  * @param {number} totalPrice El valor total de la compra 
  * @returns {number} Devuelve los euros que le podemos aplicar de descuento 
  */
-function calculateDiscount(totalPrice) {
+function calculateDiscount(price) {
 
     let discount = 0;
 
