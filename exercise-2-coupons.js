@@ -134,6 +134,11 @@ const coupons = [
  */
 const isValidCoupon = (code) => {
     // TODO
+    return coupons.some(c => c.code == code && !c.redeemed && new Date() <= new Date(c.expirationDate))
 }
 
 console.log(isValidCoupon('HOTEL2024')); // true
+console.log(isValidCoupon('DIVING2024')); // true , es el último cupón del array válido
+console.log(isValidCoupon('PAINTBALL2024')); // false, está caducado
+console.log(isValidCoupon('PARAGLIDE2024')); // false, ya ha sido canjeado
+console.log(isValidCoupon('MELOINVENTO')); // false, no existe el cupón
