@@ -57,6 +57,8 @@ console.log("Compra de 750€ sin cheque descuento se le debería aplicar un 5% 
 console.log("Compra de 1500 con un cheque descuento de 10€. Se le debería aplicar un 10% de descuento", calculateTotal(1500)) // 1346
 ```
 
+![](https://oscarm.tinytake.com/media/16bfad0?filename=1728292684764_TinyTake07-10-2024-11-18-06_638638894884055784.png&sub_type=thumbnail_preview&type=attachment&width=1197&height=295)
+
 ## Ejercicio 2A: Escribir las pruebas primero
 
 Mystery Box sigue implementando su software para canjear sus cupones de premio. Lee la docmentación sobre la función del _exercise-2-coupons.js_
@@ -65,8 +67,6 @@ y entiende cómo funciona. Fíjate que también hay una variable global de nombr
 Luego, NO CODIFIQUES todavía la función. Escribe todos los console.log (las pruebas) con las entradas que quieres probar tu función. Cómo programador y humano sabes que valor debe devolver la función dado un código de cuòn en concreto. Mira el primer ejemplo.
 
 Escribe por lo menos **3 pruebas más** antes de pasar a implementar la función, una para cada caso que el cupón pueda ser inválido
-
-![](https://oscarm.tinytake.com/media/16bfad0?filename=1728292684764_TinyTake07-10-2024-11-18-06_638638894884055784.png&sub_type=thumbnail_preview&type=attachment&width=1197&height=295)
 
 ### Ejercicio 2B: Implementar la función
 
