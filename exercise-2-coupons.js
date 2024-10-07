@@ -129,11 +129,11 @@ const coupons = [
  * 2. No ha sido canjeado con anterioridad
  * 3. No está caducado 
  * 
- * @param string coupon Cupón a comprobar
- * @returns true | false 
+ * @param {string} coupon Cupón a comprobar
+ * @returns {bool} true | false 
  */
 const isValidCoupon = (code) => {
     // TODO
 }
 
-console.log(isValidCoupon('HOTEL2024')); // true
+console.log(isValidCoupon('HOTEL2024')); // true , ya que cumple todas las condiciones para que el cupón sea válido

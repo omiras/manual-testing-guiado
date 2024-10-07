@@ -37,3 +37,18 @@ function calculateTotal(totalPrice, voucher) {
 
 2. Una chica que hace una compra de 1500€ y tiene un cheque de descuento de 10€. Debería pagar al final 1341 €  5€ de gastos de envío = 1346
 
+## Ejercicio 2A: Escribir las pruebas primero
+
+Mystery Box sigue implementando su software para canjear sus cupones de premio. Lee la docmentación sobre la función del _exercise-2-coupons.js_
+y entiende cómo funciona. Fíjate que también hay una variable global de nombre **coupons** que funciona de base de datos de cupones.
+
+Luego, NO CODIFIQUES todavía la función. Escribe todos los console.log (las pruebas) con las entradas que quieres probar tu función. Cómo programador y humano sabes que valor debe devolver la función dado un código de cuòn en concreto. Mira el primer ejemplo.
+
+Escribe por lo menos **3 pruebas más** antes de pasar a implementar la función, una para cada caso que el cupón pueda ser inválido
+
+### Ejercicio 2B: Implementar la función
+
+Ahora pasa a implementar la función. Ten en cuenta dos cosas 
+
+1. Los métodos de array te ayudarán mucho
+2. Es un **array de objetos**. 
