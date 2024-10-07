@@ -17,10 +17,10 @@ console.log(calculateDiscount(1000)); // 100
 console.log(calculateDiscount(750)); // 37.5
 console.log(calculateDiscount(450)); // 0
 
-function calculateTotal(totalPrice, voucher) {
+function calculateTotal(basePrice, voucher) {
     let total = 0;
 
-    total = totalPrice - voucher;
+    total = basePrice - voucher;
     total = total - calculateDiscount(total);
     total = total + 5;
 
