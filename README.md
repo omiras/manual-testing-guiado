@@ -29,6 +29,12 @@ En la útlima camapaña de verano, ZAra estuvo distribuyendo cheques con descuen
 function calculateTotal(totalPrice, voucher) {
 
 }
+
+console.log("Compra de 750€ sin cheque descuento se le debería aplicar un 5% de descuento", calculateTotal(750)) // 717.5
+
+console.log("Compra de 1500 con un cheque descuento de 10€. Se le debería aplicar un 10% de descuento", calculateTotal(1500)) // 1346
+
+
 ```
 
 ### Ejemplos
