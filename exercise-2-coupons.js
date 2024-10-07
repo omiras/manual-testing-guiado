@@ -136,4 +136,4 @@ const isValidCoupon = (code) => {
     // TODO
 }
 
-console.log(isValidCoupon('HOTEL2024')); // true , ya que cumple todas las condiciones para que el cupón sea válido
+console.log("Cupón que existe, no está caducado y es válido. Debería devolver true", isValidCoupon('HOTEL2024'));
