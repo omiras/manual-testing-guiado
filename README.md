@@ -6,19 +6,32 @@ Vamos a realizar dos ejercicios con un enfoque de testing manual.
 
 Zara Online ha implementado una nueva política por lo que si gastas *1000€ o más* en una compra te calcula un 10% sobre el valor total. Implementa la función _calculateDiscount_
 
+![](https://oscarm.tinytake.com/media/16bfad0?filename=1728292684764_TinyTake07-10-2024-11-18-06_638638894884055784.png&sub_type=thumbnail_preview&type=attachment&width=1197&height=295)
+
+Cuando te funcione respondete a las siguientes preguntas:
+
+- ¿Te resulta esclarecedor lo que ves por pantalla?
+- ¿Crees que habría alguna otra pruena interesante a realizar para verificar si nuestra función hace lo que se espera?
+
 ## Ejercicio 1B: Un descuento menor
 
-Amancio Ortega va que la cosa funciona: un descuento hace a la gente gastar mucho más de lo que se pensaba. Quieren **añadir** una nueva funcionalidad. Si el valor de compra es mayor de 500 euros, entonces le aplicaremos un 5% de descuento. Importante: ¡los descuentos no deben acumularse!. 
+Amancio Ortega va que la cosa funciona: un descuento hace a la gente gastar mucho más de lo que se pensaba. Quieren **añadir** una nueva funcionalidad. Si el valor de compra es mayor de **500 euros**, entonces le aplicaremos un **5%** de descuento. **Importante:** ¡los descuentos no deben acumularse!. Es decir, solo debemos aplicar uno a la vez.
 
-Para probarlo substituye los console.log por:
+Para probarlo _substituye_ los _console.log_ por:
 
 ```
 console.log(calculateDiscount(750)); // 37.95
 ```
 
+![](https://oscarm.tinytake.com/media/16bfa91?filename=1728292005690_TinyTake07-10-2024-11-06-49_638638888099553106.png&sub_type=thumbnail_preview&type=attachment&width=1195&height=204)
+
+Cuando te funcione respondete a las siguientes preguntas:
+
+- ¿Sigue funcionando bien tu código para compras de 1000 euros o más?
+
 ## Ejercicio 1C: Los cupones de descuento
 
-En la útlima camapaña de verano, ZAra estuvo distribuyendo cheques con descuentos de 10€ y 20€ para futuras compras. Crea una nueva función que calcule **el precio final** que debe pagar el cliente después de aplicar todos los descuentos y cheques. Primero se debe aplicar el cheque descuento, y luego el % de descuento. ADEMÁS, hay que añadir 5€ de gastos de envío.
+En la útlima camapaña de verano, Zara Online estuvo distribuyendo cheques con descuentos de 10€ y 20€ para futuras compras. Crea una nueva función que calcule **el precio final** que debe pagar el cliente después de aplicar todos los descuentos y cheques. Primero se debe aplicar el cheque descuento, y luego el % de descuento. ADEMÁS, hay que añadir 5€ de gastos de envío.
 
 **Crea** en el fichero  _exercise-1-discount.js_ una función con las siguientes con las siguientes características:
 
@@ -45,6 +58,8 @@ y entiende cómo funciona. Fíjate que también hay una variable global de nombr
 Luego, NO CODIFIQUES todavía la función. Escribe todos los console.log (las pruebas) con las entradas que quieres probar tu función. Cómo programador y humano sabes que valor debe devolver la función dado un código de cuòn en concreto. Mira el primer ejemplo.
 
 Escribe por lo menos **3 pruebas más** antes de pasar a implementar la función, una para cada caso que el cupón pueda ser inválido
+
+![](https://oscarm.tinytake.com/media/16bfad0?filename=1728292684764_TinyTake07-10-2024-11-18-06_638638894884055784.png&sub_type=thumbnail_preview&type=attachment&width=1197&height=295)
 
 ### Ejercicio 2B: Implementar la función
 
