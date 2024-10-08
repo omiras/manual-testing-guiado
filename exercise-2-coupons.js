@@ -133,7 +133,11 @@ const coupons = [
  * @returns {bool} true | false 
  */
 const isValidCoupon = (code) => {
-    // TODO
+
+    // El método some devuelve directamente true o false
+
+    // Existe algún cupón de código 'code', que NO haya sido canjeado Y que la fecha actual sea menos que la fecha de caducidad
+    return coupons.some(c => c.code == code && !c.redeemed && new Date() < new Date(c.expirationDate));
 }
 
 console.log("Cupón que existe, no está caducado y es válido. Debería devolver true", isValidCoupon('HOTEL2024'));
@@ -141,4 +145,20 @@ console.log("Cupón que existe (aunque está al final de la base datos), no est�
 console.log("Cupón que no existe en la base de datos. Debería devolver false", isValidCoupon('MELOHEINVENTADO'));
 console.log("El cupón ya ha sido canjeado. Debería devolver false", isValidCoupon('MUSIC2024'));
 console.log("El cupón está caducado. Debería devolver false", isValidCoupon('ESCAPEROOM2024'));
+
+// const isValidCouponUsingFind = (code) => {
+
+//     // Voy a comprobar si existe algún código de cupón en el array de objetos que coincida con el código de cupón que me pasa
+//     let coupon = coupons.find(c => c.code == code);
+
+//     if (coupon) {
+//         if (coupon.redeemed || new Date(coupon.expirationDate)<new Date()) {
+//             // su ya ha sido canjeado
+//             return false;
+//         }
+//         return true;
+//     }
+
+//     return false;
+// }
 

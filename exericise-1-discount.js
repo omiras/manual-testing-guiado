@@ -1,3 +1,4 @@
+const assert = require('assert')
 
 /**
  * 
@@ -25,6 +26,9 @@ console.log(calculateDiscount(100)); // 0, pues no llegamos al mínimo para obte
 console.log(calculateDiscount(0)); // 0
 console.log(calculateDiscount(999.99)); // 49.999500000000005, edge case -> caso límite
 
+const discount100 = calculateDiscount(100); // 0
+assert.strictEqual(10, discount100, 'El descuento obtenido para 100 euros no es válido');
+
 function calculateTotal(basePrice, voucher) {
     // 1. Restar al basePrice el valor del cupón
     let total = basePrice - voucher;
@@ -44,3 +48,9 @@ function calculateTotal(basePrice, voucher) {
 console.log("Compra de 750€ sin cheque descuento se le debería aplicar un 5% de descuento", calculateTotal(750, 0)) // 717.5
 
 console.log("Compra de 1500 con un cheque descuento de 10€. Se le debería aplicar un 10% de descuento", calculateTotal(1500, 10)) // 1346
+
+
+
+module.exports = {
+    calculateDiscount
+}
